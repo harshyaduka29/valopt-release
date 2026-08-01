@@ -1,0 +1,27 @@
+# Robots.txt for Valorant Optimizer Website (AI & Search Engine Friendly)
+User-agent: *
+Allow: /
+
+# Explicitly Allow AI Search & Citation Bots (ChatGPT, Perplexity, Gemini, Claude, Copilot)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://valopt.vercel.app/sitemap.xml
